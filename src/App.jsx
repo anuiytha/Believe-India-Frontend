@@ -1,11 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Navbar from './components/navbar';
-// import useContentful from '../../backend/contentful/useContentful';
 import BiIdeas from './pages/bi_ideas';
 import IdeaForm from './pages/ideaForm';
-import { useNavigate } from 'react-router-dom';
 import IdeaBank from './pages/ideaBank';
 import Home from './pages/home';
 import IdeaDetails from './pages/ideaDetails';
@@ -14,7 +12,7 @@ import UpdateIdea from './pages/UpdateIdea';
 import About from './pages/about';
 import Projects from './pages/projects';
 const App = () => {
-  const [message, setMessage] = useState('')
+  // const [message, setMessage] = useState('')
 
 
   // useEffect(() => {
