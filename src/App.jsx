@@ -10,7 +10,7 @@ import IdeaBank from './pages/ideaBank';
 import Home from './pages/home';
 import IdeaDetails from './pages/ideaDetails';
 import UpdateIdea from './pages/UpdateIdea';
-import useContentful from '../../backend/contentful/useContentful';
+
 import About from './pages/about';
 import Projects from './pages/projects';
 const App = () => {
