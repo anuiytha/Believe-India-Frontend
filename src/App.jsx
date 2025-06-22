@@ -41,7 +41,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/bi-ideas" element={<BiIdeas />} />
-            <Route path="/idea-form" element={<IdeaForm />} />
+            <Route path="/idea-bank/idea-form" element={<IdeaForm />} />
             <Route path="/idea-bank" element={<IdeaBank />} />
             <Route path="/idea/:id" element={<IdeaDetails />} />
 
