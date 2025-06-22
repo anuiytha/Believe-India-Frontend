@@ -19,6 +19,7 @@ import Current from './pages/initiatives/current';
 import Completed from './pages/initiatives/completed';
 import Upcoming from './pages/initiatives/upcoming';
 import SuccessStories from './pages/initiatives/success-stories';
+import SubmitIdea from './pages/ideas/submitIdea';
 
 const App = () => {
   // const [message, setMessage] = useState('')
@@ -43,6 +44,7 @@ const App = () => {
             <Route path="/idea-form" element={<IdeaForm />} />
             <Route path="/idea-bank" element={<IdeaBank />} />
             <Route path="/idea/:id" element={<IdeaDetails />} />
+            <Route path="/submit-idea" element={<SubmitIdea />} />
             <Route path="/update-idea/:ideaId" element={<UpdateIdea />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
@@ -56,6 +58,7 @@ const App = () => {
             <Route path="/projects/completed" element={<Completed />} />
             <Route path="/projects/upcoming" element={<Upcoming />} />
             <Route path="/projects/success-stories" element={<SuccessStories />} />
+
           </Routes>
         </Router>
 
