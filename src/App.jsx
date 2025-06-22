@@ -41,11 +41,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/bi-ideas" element={<BiIdeas />} />
-          <Route path="/idea-bank/idea-form" element={<IdeaForm />} />
+          <Route path="idea-form" element={<IdeaForm />} />
           <Route path="/idea-bank/submit-idea" element={<SubmitIdea />} />
           <Route path="/idea-bank" element={<IdeaBank />} />
-          <Route path="/idea-bank/featured" element={<IdeaBank />} />
-          <Route path="/idea-bank/guidelines" element={<IdeaBank />} />
           <Route path="/idea/:id" element={<IdeaDetails />} />
 
           <Route path="/update-idea/:ideaId" element={<UpdateIdea />} />
