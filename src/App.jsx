@@ -19,6 +19,7 @@ import Current from './pages/initiatives/current';
 import Completed from './pages/initiatives/completed';
 import Upcoming from './pages/initiatives/upcoming';
 import SuccessStories from './pages/initiatives/success-stories';
+import Partners from "./pages/partners/partners";
 
 
 const App = () => {
@@ -55,6 +56,7 @@ const App = () => {
           <Route path="/projects/completed" element={<Completed />} />
           <Route path="/projects/upcoming" element={<Upcoming />} />
           <Route path="/projects/success-stories" element={<SuccessStories />} />
+          <Route path="/partners" element={<Partners />} />
 
         </Routes>
       </main>

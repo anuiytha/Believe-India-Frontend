@@ -84,17 +84,17 @@ const Navbar = () => {
                 { name: 'Idea Guidelines', path: '/idea-bank/guidelines' }
             ]
         },
-        // {
-        //     name: 'Partners',
-        //     path: '/partners',
-        //     hasDropdown: true,
-        //     dropdownItems: [
-        //         { name: 'Our Partners', path: '/partners/list' },
-        //         { name: 'Become a Partner', path: '/partners/join' },
-        //         { name: 'Partnership Programs', path: '/partners/programs' },
-        //         { name: 'Partner Resources', path: '/partners/resources' }
-        //     ]
-        // },
+        {
+            name: 'Partners',
+            path: '/partners',
+            hasDropdown: true,
+            dropdownItems: [
+                { name: 'Our Partners', path: '/partners/list' },
+                { name: 'Become a Partner', path: '/partners/join' },
+                { name: 'Partnership Programs', path: '/partners/programs' },
+                { name: 'Partner Resources', path: '/partners/resources' }
+            ]
+        },
         // {
         //     name: 'Contact Us',
         //     path: '/contact',
