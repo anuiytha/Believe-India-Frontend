@@ -4,7 +4,6 @@ import Navbar from './components/navbar';
 import BiIdeas from './pages/ideas/bi_ideas';
 import IdeaForm from './pages/ideas/ideaForm';
 import IdeaBank from './pages/ideas/ideaBank';
-import SubmitIdea from './pages/ideas/submitIdea';
 import Home from './pages/home';
 import IdeaDetails from './pages/ideas/ideaDetails';
 import UpdateIdea from './pages/ideas/UpdateIdea';
@@ -25,7 +24,6 @@ import SuccessStories from './pages/initiatives/success-stories';
 const App = () => {
   // const [message, setMessage] = useState('')
 
-
   // useEffect(() => {
   //   // Fetch data from backend
   //   fetch('http://localhost:3000')
@@ -42,10 +40,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/bi-ideas" element={<BiIdeas />} />
           <Route path="/idea-form" element={<IdeaForm />} />
-          <Route path="/idea-bank/submit-idea" element={<IdeaForm />} />
           <Route path="/idea-bank" element={<IdeaBank />} />
           <Route path="/idea/:id" element={<IdeaDetails />} />
-
           <Route path="/update-idea/:ideaId" element={<UpdateIdea />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
