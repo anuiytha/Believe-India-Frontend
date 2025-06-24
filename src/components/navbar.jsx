@@ -67,10 +67,13 @@ const Navbar = () => {
             path: '/projects',
             hasDropdown: true,
             dropdownItems: [
-                { name: 'Current Projects', path: '/projects/current' },
-                { name: 'Completed Projects', path: '/projects/completed' },
-                { name: 'Upcoming Projects', path: '/projects/upcoming' },
-                { name: 'Success Stories', path: '/projects/success-stories' }
+                { name: 'Corporate', path: '/projects/corporate' },
+                { name: 'Travel', path: '/projects/travel' },
+                { name: 'Retail', path: '/projects/retail' },
+                { name: 'E-Commerce', path: '/projects/ecommerce' },
+                { name: 'Be the Change Awards', path: '/projects/awards' },
+                { name: 'Empowering Marginalized Communities including Refugees', path: '/projects/emc' },
+                { name: 'SHE THE CHANGE', path: '/projects/shethechange' }
             ]
         },
         {
@@ -80,8 +83,7 @@ const Navbar = () => {
             dropdownItems: [
                 { name: 'Submit Idea', path: '/idea-bank/submit-idea' },
                 { name: 'Browse Ideas', path: '/idea-bank' },
-                { name: 'Featured Ideas', path: '/idea-bank/featured' },
-                { name: 'Idea Guidelines', path: '/idea-bank/guidelines' }
+                { name: 'Featured Ideas', path: '/featured-ideas' },
             ]
         },
         {
@@ -95,6 +97,17 @@ const Navbar = () => {
                 { name: 'Partner Resources', path: '/partners/resources' }
             ]
         },
+
+        {
+            name: 'Our Campaigns',
+            path: '/our-campaigns',
+            hasDropdown: false
+
+        },
+
+
+
+
         // {
         //     name: 'Contact Us',
         //     path: '/contact',

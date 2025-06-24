@@ -15,11 +15,17 @@ import Training from './pages/services/training';
 import Workshops from './pages/services/workshops';
 import Mentorship from './pages/services/mentorship';
 import Research from './pages/services/research';
-import Current from './pages/initiatives/current';
-import Completed from './pages/initiatives/completed';
-import Upcoming from './pages/initiatives/upcoming';
-import SuccessStories from './pages/initiatives/success-stories';
 import Partners from "./pages/partners/partners";
+import SubmitIdea from "./pages/ideas/submitIdea";
+import FeaturedIdeas from "./pages/ideas/featuredIdeas";
+import Campaigns from "./pages/campaigns/campaigns";
+import Corporate from "./pages/initiatives/corporate";
+import Travel from "./pages/initiatives/travel";
+import Retail from "./pages/initiatives/retail";
+import ECommerce from "./pages/initiatives/ecommerce";
+import ShetheChange from "./pages/initiatives/shetheChange";
+import EMC from "./pages/initiatives/emc";
+import Awards from "./pages/initiatives/awards";
 
 
 const App = () => {
@@ -42,6 +48,8 @@ const App = () => {
           <Route path="/bi-ideas" element={<BiIdeas />} />
           <Route path="/idea-form" element={<IdeaForm />} />
           <Route path="/idea-bank" element={<IdeaBank />} />
+          <Route path="/submit-idea" element={<SubmitIdea />} />
+          <Route path="/idea-bank/submit-idea" element={<SubmitIdea />} />
           <Route path="/idea/:id" element={<IdeaDetails />} />
           <Route path="/update-idea/:ideaId" element={<UpdateIdea />} />
           <Route path="/about" element={<About />} />
@@ -52,11 +60,16 @@ const App = () => {
           <Route path="/services/workshops" element={<Workshops />} />
           <Route path="/services/mentorship" element={<Mentorship />} />
           <Route path="/services/research" element={<Research />} />
-          <Route path="/projects/current" element={<Current />} />
-          <Route path="/projects/completed" element={<Completed />} />
-          <Route path="/projects/upcoming" element={<Upcoming />} />
-          <Route path="/projects/success-stories" element={<SuccessStories />} />
           <Route path="/partners" element={<Partners />} />
+          <Route path="/featured-ideas" element={<FeaturedIdeas />} />
+          <Route path="/our-campaigns" element={<Campaigns />} />
+          <Route path="/projects/corporate" element={<Corporate />} />
+          <Route path="/projects/travel" element={<Travel />} />
+          <Route path="/projects/retail" element={<Retail />} />
+          <Route path="/projects/ecommerce" element={<ECommerce />} />
+          <Route path="/projects/awards" element={<Awards />} />
+          <Route path="/projects/emc" element={<EMC />} />
+          <Route path="/projects/shethechange" element={<ShetheChange />} />
 
         </Routes>
       </main>
